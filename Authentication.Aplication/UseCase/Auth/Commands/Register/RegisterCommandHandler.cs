@@ -1,7 +1,7 @@
 ﻿using Authentication.Domain.Entities;
 using Authentication.Domain.Services;
 using Common.Communication.Publisher.Integration;
-using Authentication.Application.UseCase.Auth.Commands;
+using Reservar.Common.Domain.Entities.Subscription;
 
 namespace Authentication.Aplication.UseCase.Auth.Commands.Register;
 

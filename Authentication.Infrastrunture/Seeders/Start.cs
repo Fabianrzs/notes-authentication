@@ -46,6 +46,13 @@ namespace Authentication.Infrastrunture.Inicialize
                     LastName = "Ramirez",
                     Password = "Password"
                 },
+                new User
+                {
+                    Email = "ramirezedward535@gmail.com",
+                    Name = "Fabian ",
+                    LastName = "Ramirez",
+                    Password = "Password"
+                },
             };
 
             await _context.AddRangeAsync(users);

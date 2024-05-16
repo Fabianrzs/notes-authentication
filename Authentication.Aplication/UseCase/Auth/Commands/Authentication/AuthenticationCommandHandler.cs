@@ -1,13 +1,8 @@
 ﻿using Authentication.Aplication.UseCase.Auth.Dto;
-using Authentication.Application.UseCase.Auth.Commands;
 using Authentication.Domain.Ports;
 using Authentication.Domain.Services;
 using Common.Communication.Publisher.Integration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Reservar.Common.Domain.Entities.Subscription;
 
 namespace Authentication.Aplication.UseCase.Auth.Commands.Authentication;
 
