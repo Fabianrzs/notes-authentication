@@ -32,6 +32,7 @@ public static class Startup
         app.UseAuthorization();
         using var scope = app.ApplicationServices.GetService<IServiceScopeFactory>()?.CreateScope();
         InitializeDatabase(scope);
+        app.UseHttpsRedirection();
     }
 
     private static void InitializeDatabase(IServiceScope scope)
